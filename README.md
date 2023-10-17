@@ -37,24 +37,31 @@ To run VidyutSahayak locally on your machine, follow these steps:
 
 1. **Clone the Repository:** Open your terminal and clone the VidyutSahayak repository from GitHub using the following command:
 
-   ```shell
+   ```console
    git clone https://github.com/YourUsername/VidyutSahayak.git
-Navigate to the Project Directory: Change your working directory to the project folder:
+   ```
+
+2. Navigate to the Project Directory: Change your working directory to the project folder.
+   
 
     ```shell
      cd VidyutSahayak
-Install Dependencies: Install the required Python dependencies using pip:
+    ``` 
+3. Install Dependencies: Install the required Python dependencies using pip.
 
     ```shell
     pip install -r requirements.txt
-Download LLama Quantized Model: Download the LLama Quantized model from the following link: LLama Quantized Model <a>https://huggingface.co/TheBloke/Llama-2-7B-GGML/blob/main/llama-2-7b.ggmlv3.q8_0.bin</a>
+    ```
 
-Move the Model to the Project Folder: Place the downloaded LLama Quantized model (llama-2-7b.ggmlv3.q8_0.bin) in the same folder as the project (VidyutSahayak).
+4. Download LLama Quantized Model from the following link: LLama Quantized Model <br> <a>https://huggingface.co/TheBloke/   Llama-2-7B-GGML/blob/main/llama-2-7b.ggmlv3.q8_0.bin</a>
 
-Run the Chatbot: Open your terminal and execute the following command to start the chatbot:
+5. Move the Model to the Project Folder: Place the downloaded LLama Quantized model (llama-2-7b.ggmlv3.q8_0.bin) in the same folder as the project (VidyutSahayak).
+
+6. Run the Chatbot: Open your terminal and execute the following command to start the chatbot.
 
     ```shell
       chainlit run app.py
+    ```
 
 Wait for Resource Downloads: During the initial run, the chatbot may download necessary resources. Please wait for the downloads to complete.
 
